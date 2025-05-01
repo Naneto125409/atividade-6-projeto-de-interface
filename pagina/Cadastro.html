@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpg" href="../icones/OIP.jpeg" />
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <!-- cabecalho -->
+
+</head>
+
+<body class="body-Cadastro" collor=" rgb(243, 169, 21">
+    <h1 id="seção 1"> </h1>
+    <header>
+        <p align="center"><big> A Jato é uma empresa de, Serviços de Marido, Voltados para Manutenção do Lar,
+                Transformando Casas em Lares Acolhedores, Um Serviço de Marido, que Cuida do Seu Lar, com Expertise e
+                Dedicação.</big></p>
+    </header>
+    <nav class="barra-navegação">
+        <div class="link">
+            <ul>
+                <div class="logo"><img src="../imagem/logomarca1.jpg" alt="logoda Empresa"></div>
+                <li><a href="../index.html">Homer</a></li>
+                <li><a href="./Cadastro.html">Cadastro</a></li>
+                <li><a href="./Galeria.html">Galeria</a></li>
+                <li><a href="./Serviços.html">Serviços</a></li>
+                <li><a href="./Reserva.html">Reserva</a></li>
+                <li><a style="background-color: darkgreen;"
+                        href="https://api.whatsapp.com/send?phone=seunumerodetelefone" target="_blank"
+                        class="whatsapp">WhatsApp</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--formulario-->
+    <h2 align="center" style="color: rgb(242, 242, 245);"> <big>Formulario</big></h2>
+    <!--formulario-->
+    <form action=".sql" method="post">
+        <p>nome: <input type="text" name="nome" placeholder="Insira Nome Completo" size="50" /></p>
+        <p>Data de Nascimento: <input type="date" name="datanasc" /></p>
+        <p>Senha: <input type="password" name="Senha" maxlength="6" /></p>
+        <p>Idade: <input type="number" name="Idade" /></p>
+        <p> Email: <input type="email" name="Email"></p>
+        <br /><br />
+        <!--Estrutura de Botões de Seleção-->
+        <p> Gênero:Nascimento
+            <input type="radio" name="genero" value="1" /> Masculino
+            <input type="radio" name="genero" value="2" />Feminino
+        </p>
+        </select>
+        <br />
+        <br />
+        <!--Estrutura de Seleção em Lista-->
+        <ol>Estado de Nascimento
+            <select max-height="1200px"
+                style="font-size: 10px; padding: 3px; border-radius: 3px; background-color: #cab9b9; font-family: Georgia, 'Times New Roman', Times, serif;">
+                <option></option>
+                <option value="AC">AC</option>
+                <option value="AL">AL</option>
+                <option value="AP">AP</option>
+                <option value="AM">AM</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="DF">DF</option>
+                <option value="ES">ES</option>
+                <option value="GO">GO</option>
+                <option value="MA">MA</option>
+                <option value="MT">MT</option>
+                <option value="MS">MS</option>
+                <option value="MG">MG</option>
+                <option value="PA">PA</option>
+                <option value="PB">PB</option>
+                <option value="PR">PR</option>
+                <option value="PE">PE</option>
+                <option value="PI">PI</option>
+                <option value="RJ">RJ</option>
+                <option value="RN">RN</option>
+                <option value="RS">RS</option>
+                <option value="RO">RO</option>
+                <option value="RR">RR</option>
+                <option value="SC">SC</option>
+                <option value="SP">SP</option>
+                <option value="SE">SE</option>
+                <option value="TO">TO</option>
+            </select>
+        </ol>
+        <br />
+        <br />
+        Comentarios
+        <input type="text" maxlength="150" class="Caixa de Comentarios" />
+        <br />
+        <br />
+        <!--Ciente de cedente de dados-->
+        <p><input type="checkbox" name="termos" />Autorizo; o uso de meus Dados, pra Cadastramento Interno junto a esta
+            Empresa</p>
+        <!-- botão reset -->
+        <input type="reset" name="reset" />
+        <!-- botão enviar -->
+        <input type="submit" name="enviar" />
+        <br />
+        <br />
+        <!--Fieldset-->
+        <fieldset align="left" style="width: 20%;">
+            <legend>Fazer login</legend>
+            <label>Nome:<input type="text" name="nome" /></label>
+            <br />
+            <label>Senha:<input type="password" name="login" /></label>
+        </fieldset>
+    </form>
+    <br>
+    <br>
+    <!-- rodapé -->
+    <footer class="rodape">
+        <div class="rodape-div">
+            <!-- Coluna 1 -->
+
+            <div class="rodape-div-1">
+                <div>
+                    <span>EMPRESA</span>
+                    <p>Informações</p>
+                    <div class="logo"><img src="../imagem/logomarca1.jpg" alt="logoda Empresa"></div>
+                </div>
+            </div>
+            <!-- Coluna 2 -->
+            <div class="rodape-div-2">
+                <div>
+                    <span>CONTATOS</span>
+                    <p>Email</p>
+                    <p>Endereço</p>
+                </div>
+            </div>
+            <!-- Coluna 3 -->
+            <div class="rodape-div-3">
+                <div>
+                    <span>SUGESTÕES</span>
+                    <p><a href="./pag1footer.html">Dicas</a></p>
+                    <br>
+                    <p><a href="./pag2footer.html">Reclamações</a></p>
+                </div>
+            </div>
+            <!-- Coluna 4 -->
+            <div class="rodape-div-4">
+                <div>
+                    <span>SOBRE</span>
+                    <p>Imagens da Empresa</p>
+                </div>
+            </div>
+            <div>
+                <p><a href id="Secao1">Voltar</a></p>
+            </div>
+            <div>
+                </p><small style="padding-right: 50px;"><br>Termos de uso reservado.
+                    <sub>Copyright <sup>&copy;</sup></sub></small></div>
+    </footer>
+</body>
+
+</html>
